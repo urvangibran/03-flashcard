@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFECD1;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.flashcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.flashcards div {
+  border: 1px solid #e7e7e7;
+  background-color: #78290F;
+  border-radius: 7px;
+  aspect-ratio: 2 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.flashcards p {
+  color: #FFECD1;
+  font-weight: 700;
+  letter-spacing: .2rem;
+}
+
+div.selected {
+  border: 1px solid #FF7D00;
+  background-color: #FF7D00;
+  font-weight: bold;
+}
+
+div.selected p{
+  color: #001524;
+}
